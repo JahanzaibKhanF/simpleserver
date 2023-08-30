@@ -1,0 +1,29 @@
+{
+  "name": "capital-jaidad",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^39.0.0",
+    "@ckeditor/ckeditor5-react": "^6.1.0",
+    "autoprefixer": "10.4.14",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2",
+    "next": "13.4.4",
+    "nodemailer": "^6.9.4",
+    "postcss": "8.4.24",
+    "quill-image-resize-module": "^3.0.0",
+    "quill-image-uploader": "^1.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "3.3.2"
+  }
+}
