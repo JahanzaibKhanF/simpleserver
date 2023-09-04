@@ -45,7 +45,7 @@ const Navbar =(props)=>{
                 
                 </li>
                 
-                {/* <li className="hover:text-[#fce303] cursor-pointer">OFFERS</li> */}
+                <li className="hover:text-[#fce303] cursor-pointer"><Link href="/about">ABOUT US</Link></li>
                 <li className="hover:text-[#fce303] cursor-pointer"><Link href="/#contactus">CONTACT US</Link></li>
             </ul></div>
             <div onClick={handelMenu} className="py-2 md:py-6 lg:py-8 lg:hidden">{isMenuOpen ? (<AiOutlineClose className={` text-white`} size={50}/>):(<FiMenu  className="text-white" size={50}/>)}</div>
@@ -54,8 +54,8 @@ const Navbar =(props)=>{
              <div onClick={(e)=>e.stopPropagation()} className={`block lg:hidden bg-black/90 absolute  lg:h-1  h-full w-[70%]  shadow-lg shadow-black transition-all duration-3000 
               ${isMenuOpen? "top-10  h-[452px] ":" bottom-[600px] "} right-[15%] md:right-0 pt-[70px] md:pt-[120px]  `}>  <ul className=" text-white bg-black/90  ">
                 <li className="py-3 border-b px-2 hover:bg-sky-700"><Link href="/">HOME</Link></li>
-                <li className="py-3 border-b px-2 hover:bg-sky-700">BLOG</li>
-                <li className="py-3 border-b px-2 hover:bg-sky-700">VIDEOS</li>
+                {/* <li className="py-3 border-b px-2 hover:bg-sky-700">BLOG</li> */}
+                {/* <li className="py-3 border-b px-2 hover:bg-sky-700">VIDEOS</li> */}
                 <li className="py-3 border-b px-2 hover:bg-sky-700 group relative"><Link href="/societies">SOCIETIES</Link>
                 <div className="hidden group-hover:block absolute text-white bg-black/80 shadow-lg px-5 py-5 w-[300px] border sm:w-[400px]">
                 <ul className="w-full">
@@ -71,7 +71,7 @@ const Navbar =(props)=>{
                 </ul>
                 </div>
                 </li>
-                <li className="py-3 border-b px-2 hover:bg-sky-700">OFFERS</li>
+                <li className="py-3 border-b px-2 hover:bg-sky-700"><Link href="/about">ABOUT US</Link></li>
                 <li className="py-3 border-b px-2 hover:bg-sky-700"><Link href="/#contactus">CONTACT US</Link></li>
             </ul></div>
             
