@@ -26,8 +26,8 @@ const Navbar =(props)=>{
             <div className=' lg:hidden  w-[200px] md:w-[300px] overflow-hidden'><Link href="/"><img src="/images/logo.jpg" className='w-full ' /></Link></div>
               <div className='hidden lg:block'>  <ul className=" text-white  flex gap-10  lg:py-[70px]">
                 <li className="hover:text-[#fce303] cursor-pointer"><Link href="/">HOME</Link></li>
-                <li className="hover:text-[#fce303] cursor-pointer">BLOG</li>
-                <li className="hover:text-[#fce303] cursor-pointer">VIDEOS</li>
+                {/* <li className="hover:text-[#fce303] cursor-pointer">BLOG</li> */}
+                {/* <li className="hover:text-[#fce303] cursor-pointer">VIDEOS</li> */}
                 <li className="hover:text-[#fce303] cursor-pointer relative group"><Link href="/societies">SOCIETIES</Link>
                 <div className="hidden group-hover:block absolute text-white bg-black/70 shadow-lg border px-5 py-5 w-[300px]">
                 <ul className="w-full">
@@ -45,7 +45,7 @@ const Navbar =(props)=>{
                 
                 </li>
                 
-                <li className="hover:text-[#fce303] cursor-pointer">OFFERS</li>
+                {/* <li className="hover:text-[#fce303] cursor-pointer">OFFERS</li> */}
                 <li className="hover:text-[#fce303] cursor-pointer"><Link href="/#contactus">CONTACT US</Link></li>
             </ul></div>
             <div onClick={handelMenu} className="py-2 md:py-6 lg:py-8 lg:hidden">{isMenuOpen ? (<AiOutlineClose className={` text-white`} size={50}/>):(<FiMenu  className="text-white" size={50}/>)}</div>

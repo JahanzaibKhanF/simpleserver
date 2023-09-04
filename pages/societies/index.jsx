@@ -23,14 +23,14 @@ fetchapi();
   return (
     <>
    <Head>
-      <title>CAPITAL JAIDAD | Find Properties In Islamabad</title>
+      <title>Top Scieties in Islamabad | CAPITAL JAIDAD</title>
 
-        <meta name="description" content="Capital Jaidad Finds Properties For You In Islamabad" />
+        <meta name="description" content="All Commercial and Resedential Societies in Islamabad For Investment" />
         <meta
           property="og:title"
-          content="CAPITAL JAIDAD | Find Properties In Islamabad"/>
-        <meta property="og:description" content="Capital Jaidad Finds Properties For You In Islamabad" />
-        <meta property="og:image" content="https://loremflickr.com/g/320/240/city" />
+          content="Top Scieties in Islamabad | CAPITAL JAIDAD"/>
+        <meta property="og:description" content="All Commercial and Resedential Societies in Islamabad For Investment" />
+        <meta property="og:image" content="https://loremflickr.com/g/320/240/building" />
       </Head>
     <div className="w-full bg-black py-3  h-screen">
 <div className="flex sm:gap-11 py-5 mx-6">   <Link href={"/"}><BiArrowBack size={30} className="text-white hover:text-[#fce303]"/> </Link>  <h1 className="text-white text-2xl text-center my-5 ">Top Societies in Islamabad | Pakistan</h1>
