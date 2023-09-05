@@ -30,6 +30,7 @@ const SocietyDetails = ({ currentSociety, societiesData }) => {
         nocpic={currentSociety.nocpic}
         locationDetails={currentSociety.locationDetails}
         mapPic={currentSociety.mapPic}
+        coverPic={currentSociety.coverPic}
       />
       <Footer societiesData={societiesData} />
       <WhatsAppConnect/>
